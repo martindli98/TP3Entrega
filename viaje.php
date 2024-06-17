@@ -77,7 +77,7 @@ class Viaje{
         $this-> sumaCostosAbonados = $sumaCostosAbonados;
     }
 
-    /* public function modificarPasajero($documento, $modificarNombre, $modificarApellido, $modificarTelefono) {
+    public function modificarPasajero($documento, $modificarNombre, $modificarApellido, $modificarTelefono) {
         $pasajeros = $this->getPasajeros();
         $encontrado = false; 
         foreach ($pasajeros as $pasajero) {
@@ -93,9 +93,9 @@ class Viaje{
     
         }
         return $encontrado;
-    } */
+    } 
 
-    /* public function agregarPasajero($nuevoPasajero) {
+    public function agregarPasajero($nuevoPasajero) {
         $pasajeros = $this->getPasajeros();
         $valor = true;
         
@@ -117,7 +117,7 @@ class Viaje{
 
     public function modificarResponsable($nuevoResponsable){
         $this->setResponsable($nuevoResponsable);
-    } */
+    } 
 
     public function hayPasajesDisponible(){
         $valor= false;
